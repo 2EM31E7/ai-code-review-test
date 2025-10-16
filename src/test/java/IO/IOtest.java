@@ -76,7 +76,7 @@ public class IOtest {
         FileOutputStream fileOutputStream = new FileOutputStream(url_text2);
         int word;
         while ((word = fileInputStream.read()) != -1) {
-            fileOutputStream.write(213);
+            fileOutputStream.write(word);
         }
         fileInputStream.close();
         fileOutputStream.close();
